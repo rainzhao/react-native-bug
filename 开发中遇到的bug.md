@@ -1,5 +1,4 @@
-## 开发React-native中遇到的bug
-
+## 开发React-native中遇到的坑
 ### 1. adb devices 无设备
 * 首先检查platform-tools是否加入了环境变量。
 * 先运行`adb kill-server`，然后运行`adb start-server`
