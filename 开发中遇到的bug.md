@@ -15,7 +15,7 @@
 		*	Android SDK Platform-tools (update it to latest version)
 		*	Android SDK Build-tools (update it to latest version)
 		*	Android Support Repository under Extra folder (update it to latest version)
-* 第二种情况你的8081端口被占用了
+* 第二种情况你的8081端口被占用了,而且无法禁止该端口号的时候:
 	* 解决方案一：在运行react-native start时添加参数--port 8800
 	* 解决方案二：package.json中修改"scripts"中参数, 添加端口号
 	* 解决方案三：修改项目下的node_modules\react-native\local-cli\server\server.js下的方法_server的default 端口值
